@@ -1,0 +1,306 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+.navigation{
+    display: flex;
+    height: 8%;
+    width: 80%;
+    padding: 20px;
+}
+.background{
+    width: 100%;
+    height: 720px;
+    position: absolute;
+    top: 90px;
+    z-index: -1;
+    left: 0%;
+    background: rgb(245, 244, 241);
+}
+input[type=radio]{
+	cursor: pointer;
+}
+.s{
+    position: absolute;
+    top: 1000px;
+    left: 35%;
+    width: 24%;
+    border: 2px solid  rgb(245, 244, 241);
+    height: 5%;
+    transition: 0.4s;
+    text-align: center;
+}
+.s:hover{
+    width: 26%;
+    left: 34%;
+}
+.titl{
+    position: absolute;
+    left: 24%;
+    transform: uppercase;
+    top: 885px;
+    font-size: 65px;
+}
+.io{
+    position: absolute;
+    left: 24%;
+    transform: uppercase;
+    top: 950px;
+    font-size: 72px;
+}
+.items{
+    position: absolute;
+    left: 24%;
+    top: 1050px;
+}
+.shop-btn{
+    position: absolute;
+    left: 24%;
+    top: 1150px;
+    width: 173px;
+    height: 41px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+button[type=submit]{
+    position: absolute;
+    top: 1090px;
+    left: 45%;
+    width: 5%;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    background: black;
+    border: 1px solid  transparent;
+    height: 5%;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #999;
+    cursor: scroll; 
+  }
+.bga{
+    position: absolute;
+    width: 99.5%;
+    height: 510px;
+    top: 810px;
+    background: rgb(236, 233, 226);
+}
+nav{
+    flex: 1;
+}
+nav ul{
+    display: inline-block;
+}
+nav ul li{
+    display: inline-block;
+}
+.navigation a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 34px 29px;
+    transition: 0.9s;
+    animation: 5s show;
+    color: black;
+}
+@keyframes show{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.navigation a:hover{
+    color: rgb(233, 64, 13);
+}
+.e{
+    background: #F0FFFF;
+    width: 100%;
+    height: 100%;
+}
+.i-for-bg{
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    animation: 3s I;
+    left: 43%;
+    display: none;
+    top: 35%;
+    transition: 0.5s;
+}
+@keyframes I{
+    to{
+        opacity: 0;
+    }
+    form{
+       opacity: 1;
+    }
+}
+.logo{
+    font-size: 35px;
+    position: absolute;
+    left: 89%;
+    top: 4%;
+    cursor: pointer;
+    color: black;
+}
+.shop{
+    width: 120px;
+    height: 40px;
+    border: 2px solid black;
+    background: black;
+    position: absolute;
+    color: white;
+    cursor: pointer;
+}
+#bottom{
+    top: 95%;
+    left: 49%;
+    cursor: pointer;
+    font-size: 22px;
+    color: black;
+    position: absolute;
+    animation: 6s e;
+}
+@keyframes e{
+    form{
+        opacity: 0;
+    }
+    to{
+        opacity: 2;
+    }
+}
+.bg{
+    width: 22%;
+    height: 65%;
+    position: absolute;
+    left: 40%;
+    top: 23%;
+    transition: 0.5s;
+    cursor: pointer;
+    animation: 2s lef;
+}
+.b{
+    width: 22%;
+    height: 65%;
+    transition: 0.5s;
+    position: absolute;
+    left: 67%;
+    top: 23%;
+    cursor: pointer;
+    animation: 2s lf;
+}
+@keyframes lf{
+    from{
+        opacity: 0;
+        left: 78%;
+    }
+    to{
+        opacity: 1;
+        left: 67%;
+    }
+}
+.b:hover{
+    top: 21%;
+}
+.bg:hover{
+    top: 21%;
+}
+@keyframes lef{
+    from{
+        opacity: 0;
+        left: 58%;
+    }
+    to{
+        opacity: 1;
+        left: 40%;
+    }
+}
+#home{
+    overflow: hidden;
+    width: 100%;
+    left: 0;
+    height: 100%;
+}
+.login{
+    cursor: pointer;
+    width: 5%;
+    color: white;
+    background: black;
+    border: 2px solid black;
+    height: 4%;
+    font-size: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 5%;
+    left: 78%;
+}
+#subscribe{
+    position: absolute;
+    top: 8000px;
+}
+.new{
+    top: 30%;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 17%;
+    animation: 2s ut;
+}
+.r{
+    font-size: 850%;
+}
+
+.mode{
+    top: 64%;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+}
+@keyframes ut{
+    from{
+        top: 40%;
+        opacity: -1;
+    }
+    to{
+        opacity: 1;
+        top: 30%;
+    }
+}
+#one,#two,#three{
+    display: none;
+}
+#img-1{
+    position: absolute;
+    top: 90%;
+    left: 55%;
+}
+#img-2{
+    position: absolute;
+    top: 90%;
+    left: 60%;
+}
+#img-3{
+    position: absolute;
+    top: 90%;
+    left: 65%;
+}
+#img-1:checked ~ .img-box #one,
+#img-2:checked ~ .img-box #two,
+#img-3:checked ~ .img-box #three{
+display: block;
+}
+.new button{
+    cursor: pointer;
+}
+.back{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+}
